@@ -8,9 +8,9 @@ import org.openqa.selenium.support.PageFactory;
 import com.empmonitor.utilities.ReadConfig;
 
 public class LoginPage {
-	ReadConfig read  = new ReadConfig();
-	String email = read.getEmail();
-	String Paassword = read.getPassword();
+//	ReadConfig read  = new ReadConfig();
+//	String email = read.getEmail();
+//	String Paassword = read.getPassword();
 	
 	WebDriver driver;
 	
@@ -34,14 +34,14 @@ public class LoginPage {
 	WebElement NonAdminLogin;
 	
 	
-	public void LoginEmail()
+	public void LoginEmail(String email)
 	{
 		EmailId.sendKeys(email);
 	}
 	
-	public void LoginPassword()
+	public void LoginPassword(String paassword)
 	{
-		Password.sendKeys(Paassword);
+		Password.sendKeys(paassword);
 	}
 	
 	public void ClickOnLogin()

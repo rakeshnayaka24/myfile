@@ -11,8 +11,8 @@ public class LoginTestCase extends BaseClasss {
 	public void verifyTheLogin ()
 	{
 		LoginPage lg = new LoginPage(driver);
-		lg.LoginEmail();
-		lg.LoginPassword();
+		lg.LoginEmail("sales_team");
+		lg.LoginPassword("salesteam");
 		lg.ClickOnLogin();
 		
 		DashBoardPage dash = new DashBoardPage(driver);
