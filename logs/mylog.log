@@ -1,0 +1,42 @@
+[INFO ] 2023-06-28 05:51:43.975 [main] Empmonitor_project - -----------*Test Case 1 Starts  *-------------------------
+[INFO ] 2023-06-28 05:51:44.102 [main] Empmonitor_project - Enter the email id 
+[INFO ] 2023-06-28 05:51:44.218 [main] Empmonitor_project - Enter the password 
+[INFO ] 2023-06-28 05:51:44.364 [main] Empmonitor_project - Clicked on the login button  
+[INFO ] 2023-06-28 05:51:44.368 [main] Empmonitor_project - Entered into Dashboard page  
+[INFO ] 2023-06-28 05:51:49.007 [main] Empmonitor_project - Capured the Dashboard username 
+[INFO ] 2023-06-28 06:12:05.743 [main] Empmonitor_project - -----------*Test Case 1 Starts  *-------------------------
+[INFO ] 2023-06-28 06:12:06.067 [main] Empmonitor_project - Enter the email id 
+[INFO ] 2023-06-28 06:12:06.180 [main] Empmonitor_project - Enter the password 
+[INFO ] 2023-06-28 06:12:06.282 [main] Empmonitor_project - Clicked on the login button  
+[INFO ] 2023-06-28 06:12:06.283 [main] Empmonitor_project - Entered into Dashboard page  
+[INFO ] 2023-06-28 06:12:11.093 [main] Empmonitor_project - Test case failed 
+[INFO ] 2023-06-28 06:18:01.512 [main] Empmonitor_project - -----------*Test Case 1 Starts  *-------------------------
+[INFO ] 2023-06-28 06:18:01.681 [main] Empmonitor_project - Enter the email id 
+[INFO ] 2023-06-28 06:18:01.868 [main] Empmonitor_project - Enter the password 
+[INFO ] 2023-06-28 06:18:02.083 [main] Empmonitor_project - Clicked on the login button  
+[INFO ] 2023-06-28 06:18:02.182 [main] Empmonitor_project - Entered into Dashboard page  
+[INFO ] 2023-06-28 06:18:07.416 [main] Empmonitor_project - Test case failed 
+[INFO ] 2023-06-28 06:29:18.659 [main] Empmonitor_project - -----------*Test Case 1 Starts  *-------------------------
+[INFO ] 2023-06-28 06:29:19.599 [main] Empmonitor_project - Enter the email id 
+[INFO ] 2023-06-28 06:29:19.801 [main] Empmonitor_project - Enter the password 
+[INFO ] 2023-06-28 06:29:26.417 [main] Empmonitor_project - Clicked on the login button  
+[INFO ] 2023-06-28 06:29:26.729 [main] Empmonitor_project - Entered into Dashboard page  
+[INFO ] 2023-06-28 06:29:26.854 [main] Empmonitor_project - Test case failed 
+[INFO ] 2023-06-28 06:31:33.027 [main] Empmonitor_project - -----------*Test Case 1 Starts  *-------------------------
+[INFO ] 2023-06-28 06:31:33.133 [main] Empmonitor_project - Enter the email id 
+[INFO ] 2023-06-28 06:31:33.224 [main] Empmonitor_project - Enter the password 
+[INFO ] 2023-06-28 06:31:33.324 [main] Empmonitor_project - Clicked on the login button  
+[INFO ] 2023-06-28 06:31:33.326 [main] Empmonitor_project - Entered into Dashboard page  
+[INFO ] 2023-06-28 06:31:38.597 [main] Empmonitor_project - Test case failed 
+[INFO ] 2023-06-28 06:34:48.135 [main] Empmonitor_project - -----------*Test Case 1 Starts  *-------------------------
+[INFO ] 2023-06-28 06:34:48.332 [main] Empmonitor_project - Enter the email id 
+[INFO ] 2023-06-28 06:34:48.493 [main] Empmonitor_project - Enter the password 
+[INFO ] 2023-06-28 06:34:48.619 [main] Empmonitor_project - Clicked on the login button  
+[INFO ] 2023-06-28 06:34:48.620 [main] Empmonitor_project - Entered into Dashboard page  
+[INFO ] 2023-06-28 06:34:51.846 [main] Empmonitor_project - Test case failed 
+[INFO ] 2023-06-28 06:42:26.271 [main] Empmonitor_project - -----------*Test Case 1 Starts  *-------------------------
+[INFO ] 2023-06-28 06:42:26.493 [main] Empmonitor_project - Enter the email id 
+[INFO ] 2023-06-28 06:42:26.648 [main] Empmonitor_project - Enter the password 
+[INFO ] 2023-06-28 06:42:26.750 [main] Empmonitor_project - Clicked on the login button  
+[INFO ] 2023-06-28 06:42:26.753 [main] Empmonitor_project - Entered into Dashboard page  
+[INFO ] 2023-06-28 06:42:34.063 [main] Empmonitor_project - Test case failed 

@@ -5,6 +5,8 @@ import java.io.IOException;
 import java.time.Duration;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -19,17 +21,18 @@ public class BaseClasss {
 
 	
 	ReadConfig read = new ReadConfig();
-	String url = read.getBaseUrl();
-	String browser = read.getBrowser();
-	
+	public String emailAddress = read.getEmail() ;
+	String password = read.getPassword();
 	
 	public static WebDriver driver;
-	
+	public static Logger logger;
 	//opening the browser 
 	@BeforeClass
 	public void setup()
+	
 	{
-		switch(browser.toLowerCase())
+		
+		switch(read.getBrowser().toLowerCase())
 		{
 		case"chrome":
 		WebDriverManager.chromedriver().setup();
@@ -38,7 +41,8 @@ public class BaseClasss {
 		}
 		
 		driver.manage().window().maximize();
-		driver.get("https://app.empmonitor.com/amember/member");
+		logger=LogManager.getLogger("Empmonitor_project");
+		driver.get(read.getBaseUrl());
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
 	}
@@ -59,7 +63,7 @@ public class BaseClasss {
 	{
 		TakesScreenshot  screenshot =(TakesScreenshot)driver; 
 		File src = screenshot.getScreenshotAs(OutputType.FILE);
-		File desc = new File ("user.dir"+"Screenshot"+testname+".png");
+		File desc = new File(System.getProperty("./Screenshot/"+testname+".png"));
 		FileUtils.copyDirectory(src, desc);
 	}
 	

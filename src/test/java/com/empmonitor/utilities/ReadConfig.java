@@ -8,52 +8,46 @@ import java.util.Properties;
 public class ReadConfig {
 
 	Properties properties;
-	String path = "C:\\Users\\GLB-464\\eclipse-workspace\\Empmonitor_project\\configuration\\config.properties";
-
+	String path= "C:\\Users\\GLB-464\\eclipse-workspace\\Empmonitor_project\\configuration\\config.properties";
 
 	public ReadConfig ()
 	{
 		
 	
-		properties = new Properties();
 		try {
-			FileInputStream fis;
-			
-				fis = new FileInputStream(path);
-				try {
-					properties.load(fis);
-				} catch (IOException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
-			} catch (FileNotFoundException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-			
-		
+			properties = new Properties();
+
+			FileInputStream  fis = new FileInputStream(path);
+			properties.load(fis);
+
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+
 	}
 	public String getBaseUrl()
 	{
-	String value = properties.getProperty("baseUrl");
-	
+		String value = properties.getProperty("baseUrl");
+
 		if(value!=null)
-		return value;
+			return value;
 		else
 			throw new RuntimeException("url not specified in config file.");
-				
+
 	}
+
 	public String getBrowser()
 	{
 		String value = properties.getProperty("browser");
-		
-			if(value!=null)
+
+		if(value!=null)
 			return value;
-			else
-				throw new RuntimeException("browser not specified in config file.");
-					
-		}
-	
+		else
+			throw new RuntimeException("url not specified in config file.");
+
+	}
 	
 	public String getEmail()
 	{
